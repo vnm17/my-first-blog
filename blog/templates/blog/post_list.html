@@ -1,22 +1,35 @@
-<html>
-    <head>
-        <title>Django Girls blog</title>
-    </head>
-    <body>
-        <div>
-            <h1><a href="">Django Girls Blog</a></h1>
-        </div>
+<!DOCTYPE html>
 
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My first post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div>
+<html lang="en-US">
+  <head>
+    <link href='//fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+    <style>
+      body {background-color: mintcream;}
+      h1 {
+        color: lightseagreen;
+        font-size: 36px;
+      }
+      p {
+        color: teal;
+        font-size: 20px;
+      }
+    </style>
+    <title>Vi's Blog</title>
+    <script>
+    function mouseIn() {
+    document.getElementById("dog").src = "recolored.jpg";
+  }
+    function mouseOut() {
+    document.getElementById("dog").src = "brooklyn.jpg";
+}
+    </script>
+  </head>
+  <body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
 
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My second post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-        </div>
-    </body>
+    <p>This is a dog. (Not my dog.)</p>
+    <img id = "dog" src = "brooklyn.jpg" onmouseover="mouseIn()" onmouseout="mouseOut()" style = "width:500px">
+
+  </body>
 </html>
