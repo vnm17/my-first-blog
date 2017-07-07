@@ -25,7 +25,7 @@ SECRET_KEY = 'x2q2m7#5u9gi*ag*nc0#iud(44#ag(w@f1&=igfg4ia&9#mbc1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'vivekam.pythonanywhere.com']
 
 
 
